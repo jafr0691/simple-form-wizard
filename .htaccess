@@ -1,0 +1,5 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteBase /
+RewriteRule ^form/([a-zA-Z/]+)$ index.php?ruta=$1
+RewriteRule ^edit/([a-zA-Z0-9/]+)$ index.php?edit=$1
